@@ -1,0 +1,11 @@
+﻿Specfications:
+
+HMI function:
+-Upload CNC program
+-Set coordinate system offsets
+-Set tool length and diameter offsets
+-Start/Stop CNC program
+- Manual jog of axes
+
+
+2012.12.05 HMI Spindle Function 

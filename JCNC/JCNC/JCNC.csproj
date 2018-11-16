@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B6373D7-5454-455E-9CA5-D7890F82AE5E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JCNC</RootNamespace>
+    <AssemblyName>JCNC</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Program Files %28x86%29\JGPCNC\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>588D5CB8AFB18F15D621CAAE6D55C4E20B07D2D2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>JCNC_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveCodeForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ActiveCodeForm.Designer.cs">
+      <DependentUpon>ActiveCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JCNCMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JCNCMainForm.Designer.cs">
+      <DependentUpon>JCNCMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalVals.cs" />
+    <Compile Include="JCNCMainFormTopFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JCNCSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>JCNCSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MFEXControlFuncPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MFEXControlFuncPanel.Designer.cs">
+      <DependentUpon>MFEXControlFuncPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MF_Mon_DIOStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MF_Mon_DIOStatus.Designer.cs">
+      <DependentUpon>MF_Mon_DIOStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MF_Mon_Mon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MF_Mon_Mon.Designer.cs">
+      <DependentUpon>MF_Mon_Mon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MF_Prog_FilePath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MF_Prog_FilePath.Designer.cs">
+      <DependentUpon>MF_Prog_FilePath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MsgDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsgDlg.Designer.cs">
+      <DependentUpon>MsgDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumPad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumPad.designer.cs">
+      <DependentUpon>NumPad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MF_Diag_Msg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MF_Diag_Msg.Designer.cs">
+      <DependentUpon>MF_Diag_Msg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavedString.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>SavedString.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SearchLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchLine.Designer.cs">
+      <DependentUpon>SearchLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowProgressBar.Designer.cs">
+      <DependentUpon>ShowProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs" />
+    <Compile Include="SplashScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreenForm.Designer.cs">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringOperation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StringOperation.Designer.cs">
+      <DependentUpon>StringOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WarningMSG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarningMSG.Designer.cs">
+      <DependentUpon>WarningMSG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWarningMSG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolWarningMSG.Designer.cs">
+      <DependentUpon>ToolWarningMSG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThreadRoutineRW.cs" />
+    <EmbeddedResource Include="ActiveCodeForm.resx">
+      <DependentUpon>ActiveCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JCNCMainForm.resx">
+      <DependentUpon>JCNCMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MFEXControlFuncPanel.resx">
+      <DependentUpon>MFEXControlFuncPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MF_Mon_DIOStatus.resx">
+      <DependentUpon>MF_Mon_DIOStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MF_Mon_Mon.resx">
+      <DependentUpon>MF_Mon_Mon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MF_Prog_FilePath.resx">
+      <DependentUpon>MF_Prog_FilePath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsgDlg.resx">
+      <DependentUpon>MsgDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumPad.resx">
+      <DependentUpon>NumPad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="MF_Diag_Msg.resx">
+      <DependentUpon>MF_Diag_Msg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchLine.resx">
+      <DependentUpon>SearchLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowProgressBar.resx">
+      <DependentUpon>ShowProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreenForm.resx">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringOperation.resx">
+      <DependentUpon>StringOperation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarningMSG.resx">
+      <DependentUpon>WarningMSG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWarningMSG.resx">
+      <DependentUpon>ToolWarningMSG.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="JCNCSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>JCNCSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="JCNC_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SavedString.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>SavedString.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Compensation\Compensation.csproj">
+      <Project>{9D063605-13DB-4848-98BD-17D09402EF97}</Project>
+      <Name>Compensation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoordinateSystem\CoordinateSystem.csproj">
+      <Project>{BA110FC7-F49F-4B8C-950E-2796E9D5B79F}</Project>
+      <Name>CoordinateSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DllExp\JCNCDTDLL.csproj">
+      <Project>{6CF55EB5-43ED-47E6-B1B5-E7C1C243464C}</Project>
+      <Name>JCNCDTDLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FeedrateSetupUI\FeedrateSetupUI.csproj">
+      <Project>{FF1B923C-2619-4FD3-AD61-76E5D5297285}</Project>
+      <Name>FeedrateSetupUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileTransfer\FileTransfer.csproj">
+      <Project>{F3DDFDA9-D0BD-4C2F-8525-4D65893EC082}</Project>
+      <Name>FileTransfer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HomingSetupUI\HomingSetupUI.csproj">
+      <Project>{66C27FE5-8240-46CF-BC15-B0AFCD685801}</Project>
+      <Name>HomingSetupUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDStatus\IDStatus.csproj">
+      <Project>{65B1E3E6-83FE-4273-B233-A913B74E3D79}</Project>
+      <Name>IDStatus</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JCNCDTCONECT\JCNCDTCONECT.csproj">
+      <Project>{E2F8653A-8964-434F-8F24-C2D024982709}</Project>
+      <Name>JCNCDTCONECT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JCNCShareMemory\JCNCShareMemory.csproj">
+      <Project>{5E073087-FA5A-4440-90AB-313BFDE908F2}</Project>
+      <Name>JCNCShareMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JCNCSystemTime\JCNCSystemTime.csproj">
+      <Project>{75E49AD8-A6E5-4E5D-BDBE-AF29D77836ED}</Project>
+      <Name>JCNCSystemTime</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JOGSetUpUI\JOGSetUpUI.csproj">
+      <Project>{60BE7708-ED44-4B2D-B56F-EBDE0DA56B92}</Project>
+      <Name>JOGSetUpUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KeyBoard\KeyBoard.csproj">
+      <Project>{F8DBD76D-36FB-4304-BD5B-FBEBB02DB873}</Project>
+      <Name>KeyBoard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MDIOP\MDIOP.csproj">
+      <Project>{BF555A3F-E419-41E5-A117-C67CAD35681F}</Project>
+      <Name>MDIOP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NCFormatFile\NCFormatFile.csproj">
+      <Project>{E09D278B-2650-4C56-961E-14113A99EEF5}</Project>
+      <Name>NCFormatFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Offset\Offset.csproj">
+      <Project>{0BB5E4F3-B138-4B42-AF01-19AAFCF94F40}</Project>
+      <Name>Offset</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PagesAuthority\PagesAuthority.csproj">
+      <Project>{A2E1348D-8ED8-4A82-BD8F-04D494EE3C2B}</Project>
+      <Name>PagesAuthority</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PureCoordinate\PureCoordinate.csproj">
+      <Project>{D69F6137-15B7-4F2C-BEA5-1AB007048361}</Project>
+      <Name>PureCoordinate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServoSetupUI\ServoSetupUI.csproj">
+      <Project>{0418740E-B5E0-4A58-9390-E953F4D3E29B}</Project>
+      <Name>ServoSetupUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SignalMonitorForm\SignalMonitorForm.csproj">
+      <Project>{63F67697-C5A9-484E-B7CE-BE37AD6E15D7}</Project>
+      <Name>SignalMonitorForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToolMagazine\ToolMagazineSetupUI.csproj">
+      <Project>{DFCFC83D-6E86-452E-A5EF-BBDE98B1AD25}</Project>
+      <Name>ToolMagazineSetupUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToolMeasurement\ToolMeasurement.csproj">
+      <Project>{E3895281-8E55-44A2-A9C0-C5B2542D573A}</Project>
+      <Name>ToolMeasurement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorkAreaLimit\WorkAreaLimit.csproj">
+      <Project>{39E4E778-F2C7-44B3-9F37-5A40E1F491A3}</Project>
+      <Name>WorkAreaLimit</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon\down.png" />
+    <None Include="icon\exit.png" />
+    <Content Include="icon\JGP-2012.png" />
+    <None Include="icon\JGP.bmp" />
+    <None Include="icon\JGPICON.ico" />
+    <Content Include="icon\refresh.png" />
+    <Content Include="icon\settings.png" />
+    <Content Include="icon\shut down.png" />
+    <Content Include="icon\up.png" />
+    <Content Include="Note.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

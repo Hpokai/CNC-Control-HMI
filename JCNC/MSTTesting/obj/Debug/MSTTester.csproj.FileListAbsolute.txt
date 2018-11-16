@@ -1,0 +1,9 @@
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MSTTesting\bin\Debug\MSTTesting.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MSTTesting\bin\Debug\MSTTesting.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MSTTesting\obj\Debug\ResolveAssemblyReference.cache
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MSTTesting\obj\Debug\MSTTesting.MSTTester.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MSTTesting\obj\Debug\MSTTesting.Properties.Resources.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MSTTesting\obj\Debug\GenerateResource.read.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MSTTesting\obj\Debug\GenerateResource.write.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MSTTesting\obj\Debug\MSTTesting.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MSTTesting\obj\Debug\MSTTesting.pdb

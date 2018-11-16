@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2E1348D-8ED8-4A82-BD8F-04D494EE3C2B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PagesAuthority</RootNamespace>
+    <AssemblyName>PagesAuthority</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authority.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authority.Designer.cs">
+      <DependentUpon>Authority.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncPanelPagePaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagesAuthorityClass.cs" />
+    <Compile Include="DIALev1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DIALev1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="DIALev2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DIALev2.settings</DependentUpon>
+    </Compile>
+    <Compile Include="DIALev3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DIALev3.settings</DependentUpon>
+    </Compile>
+    <Compile Include="DIALev4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DIALev4.settings</DependentUpon>
+    </Compile>
+    <Compile Include="DIALev5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DIALev5.settings</DependentUpon>
+    </Compile>
+    <Compile Include="DIALev6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DIALev6.settings</DependentUpon>
+    </Compile>
+    <Compile Include="FuncSelPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncSelPage.Designer.cs">
+      <DependentUpon>FuncSelPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions.Designer.cs">
+      <DependentUpon>Functions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAINLev1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MAINLev1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MAINLev2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MAINLev2.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MAINLev3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MAINLev3.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MAINLev4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MAINLev4.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MAINLev5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MAINLev5.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MAINLev6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MAINLev6.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MONLev1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MONLev1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MONLev2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MONLev2.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MONLev3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MONLev3.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MONLev4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MONLev4.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MONLev5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MONLev5.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MONLev6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>MONLev6.settings</DependentUpon>
+    </Compile>
+    <Compile Include="OFFLev1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>OFFLev1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="OFFLev2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>OFFLev2.settings</DependentUpon>
+    </Compile>
+    <Compile Include="OFFLev3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>OFFLev3.settings</DependentUpon>
+    </Compile>
+    <Compile Include="OFFLev4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>OFFLev4.settings</DependentUpon>
+    </Compile>
+    <Compile Include="OFFLev5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>OFFLev5.settings</DependentUpon>
+    </Compile>
+    <Compile Include="OFFLev6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>OFFLev6.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PARAMLev1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PARAMLev1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PARAMLev2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PARAMLev2.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PARAMLev3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PARAMLev3.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PARAMLev4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PARAMLev4.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PARAMLev5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PARAMLev5.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PARAMLev6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PARAMLev6.settings</DependentUpon>
+    </Compile>
+    <Compile Include="MONLev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PROGLev1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PROGLev1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PROGLev2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PROGLev2.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PROGLev3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PROGLev3.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PROGLev4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PROGLev4.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PROGLev5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PROGLev5.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PROGLev6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PROGLev6.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="OFFLev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAINLev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIALev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PARAMLev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PROGLev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShareInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Authority.resx">
+      <DependentUpon>Authority.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuncSelPage.resx">
+      <DependentUpon>FuncSelPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Functions.resx">
+      <DependentUpon>Functions.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DIALev1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DIALev1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DIALev2.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DIALev2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DIALev3.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DIALev3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DIALev4.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DIALev4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DIALev5.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DIALev5.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DIALev6.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DIALev6.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MAINLev1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MAINLev1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MAINLev2.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MAINLev2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MAINLev3.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MAINLev3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MAINLev4.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MAINLev4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MAINLev5.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MAINLev5.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MAINLev6.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MAINLev6.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MONLev1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MONLev1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MONLev2.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MONLev2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MONLev3.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MONLev3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MONLev4.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MONLev4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MONLev5.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MONLev5.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MONLev6.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MONLev6.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OFFLev1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>OFFLev1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OFFLev2.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>OFFLev2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OFFLev3.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>OFFLev3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OFFLev4.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>OFFLev4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OFFLev5.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>OFFLev5.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="OFFLev6.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>OFFLev6.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PARAMLev1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PARAMLev1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PARAMLev2.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PARAMLev2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PARAMLev3.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PARAMLev3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PARAMLev4.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PARAMLev4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PARAMLev5.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PARAMLev5.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PARAMLev6.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PARAMLev6.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PROGLev1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PROGLev1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PROGLev2.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PROGLev2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PROGLev3.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PROGLev3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PROGLev4.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PROGLev4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PROGLev5.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PROGLev5.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PROGLev6.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PROGLev6.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JCNCShareMemory\JCNCShareMemory.csproj">
+      <Project>{5E073087-FA5A-4440-90AB-313BFDE908F2}</Project>
+      <Name>JCNCShareMemory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

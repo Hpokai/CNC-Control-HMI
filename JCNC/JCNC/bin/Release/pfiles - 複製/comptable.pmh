@@ -1,0 +1,27 @@
+
+
+CompTable[0].Source[0] = 1 	// Use Motor 1 as 1st dim source
+CompTable[0].Nx[0] = 11 	// 11 data zones in 1st dim
+CompTable[0].Nx[1] = 0 		// No 2nd dimension
+CompTable[0].Nx[2] = 0 		// No 3rd dimension
+CompTable[0].X0[0] = -10000 	// Start at -10K units
+CompTable[0].Dx[0] = 110000 	// Span of 110K units (to +100K)
+
+
+// Compensate both position and velocity loops
+CompTable[0].Target[0] = Motor[1].CompPos.a
+CompTable[0].Target[1] = Motor[1].CompPos2.a
+CompTable[0].Sf[0] = 1.0 			// Unity scale factor for pos loop
+CompTable[0].Sf[1] = 1.0 			// Unity scale factor for vel loop
+CompTable[0].Ctrl = 7 				// No rollover, cubic interpolation
+CompTable[0].OutCtrl = 0 			// Overwrite targets each cycle
+
+// Enter table correction data points 0 to 5
+CompTable[0].Data[0] = 0.0, 25.2, 12.1, -7.3, 8.1, -1.9
+
+// Enter table correction data points 6 to 11
+CompTable[0].Data[6] = 6.5, 13.4, -3.6, 2.9, -11.8, 4.7
+
+
+Sys.CompEnable
+

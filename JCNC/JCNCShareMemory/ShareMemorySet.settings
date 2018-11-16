@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="JCNCShareMemory" GeneratedClassName="ShareMemorySet">
+  <Profiles />
+  <Settings>
+    <Setting Name="SystDateTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PowerOnTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ElectricalGearRatio" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">104857.6</Value>
+    </Setting>
+    <Setting Name="AutoOperateTimeSpan" Type="System.TimeSpan" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MaxFeedRate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15000</Value>
+    </Setting>
+    <Setting Name="CurrentCoordinateSystem" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">54</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

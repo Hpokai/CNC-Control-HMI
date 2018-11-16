@@ -1,0 +1,7 @@
+Open Prog 105
+G17 G90 G64
+G00 X0Y0
+G04 P1.75
+G01
+
+Close

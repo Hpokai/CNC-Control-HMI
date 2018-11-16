@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="JOGSetUpUI" GeneratedClassName="JOGSet">
+  <Profiles />
+  <Settings>
+    <Setting Name="JogFeedrate" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="IncJog" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="SpindleSpeed" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">24000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

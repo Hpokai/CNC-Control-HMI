@@ -1,0 +1,12 @@
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\bin\Debug\WorkpieceMeasurement.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\bin\Debug\WorkpieceMeasurement.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\bin\Debug\JCNCShareMemory.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\bin\Debug\JCNCShareMemory.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\obj\Debug\ResolveAssemblyReference.cache
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\obj\Debug\WorkpieceMeasurement.NumPad.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\obj\Debug\WorkpieceMeasurement.Properties.Resources.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\obj\Debug\WorkpieceMeasurement.WMeas.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\obj\Debug\GenerateResource.read.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\obj\Debug\GenerateResource.write.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\obj\Debug\WorkpieceMeasurement.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\WorkpieceMeasurement\obj\Debug\WorkpieceMeasurement.pdb

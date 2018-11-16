@@ -1,0 +1,8 @@
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\TuningMachine\bin\Debug\TuningMachine.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\TuningMachine\bin\Debug\TuningMachine.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\TuningMachine\obj\Debug\ResolveAssemblyReference.cache
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\TuningMachine\obj\Debug\TuningMachine.Tuning.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\TuningMachine\obj\Debug\GenerateResource.read.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\TuningMachine\obj\Debug\GenerateResource.write.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\TuningMachine\obj\Debug\TuningMachine.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\TuningMachine\obj\Debug\TuningMachine.pdb

@@ -1,0 +1,14 @@
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\bin\Debug\IDStatus.dll.config
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\bin\Debug\IDStatus.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\bin\Debug\IDStatus.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\bin\Debug\JCNCShareMemory.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\bin\Debug\PagesAuthority.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\bin\Debug\JCNCShareMemory.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\bin\Debug\PagesAuthority.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\obj\Debug\ResolveAssemblyReference.cache
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\obj\Debug\IDStatus.FORM_Main_IdStatus.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\obj\Debug\IDStatus.MsgDlg.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\obj\Debug\GenerateResource.read.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\obj\Debug\GenerateResource.write.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\obj\Debug\IDStatus.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\IDStatus\obj\Debug\IDStatus.pdb

@@ -1,0 +1,14 @@
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\bin\Debug\MDIOP.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\bin\Debug\MDIOP.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\bin\Debug\JCNCShareMemory.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\bin\Debug\KeyBoard.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\bin\Debug\JCNCShareMemory.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\bin\Debug\KeyBoard.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\obj\Debug\ResolveAssemblyReference.cache
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\obj\Debug\MDIOP.FORM_Prog_MdiFileEdit.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\obj\Debug\MDIOP.NumPad.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\obj\Debug\MDIOP.SearchLine.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\obj\Debug\GenerateResource.read.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\obj\Debug\GenerateResource.write.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\obj\Debug\MDIOP.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\MDIOP\obj\Debug\MDIOP.pdb

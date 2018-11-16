@@ -1,0 +1,11 @@
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\bin\Debug\SignalMonitorForm.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\bin\Debug\SignalMonitorForm.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\bin\Debug\JCNCShareMemory.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\bin\Debug\JCNCShareMemory.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\obj\Debug\ResolveAssemblyReference.cache
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\obj\Debug\SignalMonitorForm.FORM_Mon_Signal.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\obj\Debug\SignalMonitorForm.Properties.Resources.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\obj\Debug\GenerateResource.read.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\obj\Debug\GenerateResource.write.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\obj\Debug\SignalMonitorForm.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\SignalMonitorForm\obj\Debug\SignalMonitorForm.pdb

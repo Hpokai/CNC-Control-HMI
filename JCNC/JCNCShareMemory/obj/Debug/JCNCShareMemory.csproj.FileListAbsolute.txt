@@ -1,0 +1,9 @@
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\JCNCShareMemory\bin\Debug\JCNCShareMemory.dll.config
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\JCNCShareMemory\bin\Debug\JCNCShareMemory.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\JCNCShareMemory\bin\Debug\JCNCShareMemory.pdb
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\JCNCShareMemory\obj\Debug\ResolveAssemblyReference.cache
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\JCNCShareMemory\obj\Debug\JCNCShareMemory.ShareMemory.resources
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\JCNCShareMemory\obj\Debug\GenerateResource.read.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\JCNCShareMemory\obj\Debug\GenerateResource.write.1.tlog
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\JCNCShareMemory\obj\Debug\JCNCShareMemory.dll
+D:\Jabil\00__Work\00_CNC\Software\JCNC20140327\JCNCShareMemory\obj\Debug\JCNCShareMemory.pdb

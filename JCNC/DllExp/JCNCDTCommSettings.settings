@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="JCNCDTDLL" GeneratedClassName="JCNCDTCommSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="defaultIPAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.0.200</Value>
+    </Setting>
+    <Setting Name="defaultUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="defaultPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">deltatau</Value>
+    </Setting>
+    <Setting Name="defaultPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">22</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
